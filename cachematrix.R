@@ -3,27 +3,27 @@
 ## how to call these functions in the console after sourcing the file. 
 ## This example assumes that the value of 'testMatrix' is an invertible matrix.
 ## In this example testMatrix =      
-##            row1 row2
-##      [1,]    4    1
-##      [2,]    3    1
+##              a b
+##      [1,]    4 3
+##      [2,]    1 1
 ## 
 ## execute the following commands in the console
 ## > result = makeCacheMatrix(testMatrix)
 ## > cacheSolve(result)
 ##      
 ## output will be:
-##           [,1] [,2]
-##      row1    1   -1
-##      row2   -3    4
+##          [,1] [,2]
+##      a    1   -3
+##      b   -1    4
 ##   
 ## now execute the following command:
 ## > cacheSolve(result)
 ##
 ## output will be:
 ##  getting cached data
-##           [,1] [,2]
-##      row1    1   -1
-##      row2   -3    4
+##          [,1] [,2]
+##      a    1   -3
+##      b   -1    4
 
 
 
